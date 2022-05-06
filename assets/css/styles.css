@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.HeroSection{
+    background: url("../images/moving\ 1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh ; 
+    opacity: 0.9; 
+}
+.navbar {
+    display: flex;
+    padding-top: 60px;
+    justify-content: space-between;
+}
+#yellow{
+    color: #FFAC12;
+}
+#white{
+    color: white;
+    
+}
+div.links{
+    display: inline-block;
+    
+}
+ul.line{
+    display: flex;
+    padding-right: 50px;
+    
+}
+    
+
+button.navbutton{
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    background-color: #FFAC12;
+    margin-right: 50px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+}   
+button.navbutton:hover{
+    background-color: black;
+    color: #FFAC12;
+
+}
+.HeroText > p{
+    padding-top: 40px;
+    padding-left: 50px;
+    font-size: 50px;
+}
+h1{
+    padding-left: 30px;
+}
+.HeroText >p.small{
+    font-size: 30px;
+}
+.navbar >h1{
+    font-size: 40px;
+    
+}
+.navbar >h1 > span#white{
+    text-decoration: overline #FFAC12;
+}
+.navbar >h1 > span#move{
+    text-decoration: underline #fff;
+
+
+}
+.links > .line > li> a{
+    color: white;
+    padding: 35px;
+    transition: all 0.3s ease 0s;
+}
+.links > .line > li> a:hover{
+    color: #FFAC12;
+}
