@@ -9,13 +9,17 @@
     background: url("../images/moving\ 1.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     height: 100vh ; 
+    /* height: 100%; */
     opacity: 0.9; 
 }
 .navbar {
     display: flex;
     padding-top: 60px;
+    padding-right: 40px;
     justify-content: space-between;
+    align-items: center;
 }
 #yellow{
     color: #FAFF00;
@@ -24,14 +28,12 @@
     color: white;
     
 }
-div.links{
-    display: inline-block;
-    
-}
+
 ul.line{
-    display: flex;
     padding-right: 50px;
-    
+}
+ul.line li{
+    display: inline-block;
 }
     
 
@@ -41,7 +43,6 @@ button.navbutton{
     padding-bottom: 5px;
     padding-left: 20px;
     background-color: #FFAC12;
-    margin-right: 50px;
     border: none;
     cursor: pointer;
     transition: all 0.3s ease 0s;
