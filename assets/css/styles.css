@@ -4,6 +4,7 @@
     list-style: none;
     box-sizing: border-box;
     text-decoration: none;
+   
 }
 .HeroSection{
     background: url("../images/moving\ 1.png");
@@ -130,6 +131,7 @@ h1{
     font-size: 12px;
 } 
 /* ThirdSection */
+
 .ThirdSection{
     background-color: #ECECEC;
     margin: 40px 0 0 0;
@@ -153,10 +155,35 @@ border: none;
 }
 .allimages{
     width: 100%;
+    
 }
+
 .allimages img{
     width: 100%;
 }
+.allimages > .img >h4{
+    padding: 20px 0 20px 40px;
+    background-color: white;
+    margin-top: 1px;
+    
+}
+.img >table{
+    padding: 10px;
+    border: 1px solid #ECECEC;
+    border-collapse: collapse;
+    margin: 0;
+    width: 100%;
+    background-color: white;
+    border-radius: 0 0 30px 30px;
+}
+
+.img table tr td{
+    padding: 10px 0 10px 40px ;
+    border: 1px solid #ECECEC;
+    border-collapse: collapse;
+
+}
+
 /* Footer */
 .Footer{
     padding: 60px 120px 60px 120px;
@@ -180,3 +207,6 @@ border: none;
     line-height: 30px;
     margin-left: 350px;
 }
+/* movers.html */
+
+/* navbar */
