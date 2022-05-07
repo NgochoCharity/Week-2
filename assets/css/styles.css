@@ -220,3 +220,47 @@ border: none;
 /* movers.html */
 
 /* navbar */
+.nav{
+    background-color: black;
+    padding: 40px 90px 20px 90px;
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: white;
+    padding: 0 0 10px 0;
+    align-items: center;
+}
+.navlinks > button{
+    background-color: #FFAC12;
+    padding: 0 20px 10px 20px;
+    border: none;
+    border-radius: 0 15px 0 0;
+}
+.titles{
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    line-height: 30px;
+    padding: 20px 0 0 0;
+}
+.nav  hr {
+    background-color: #FFAC12;
+    border: none;
+    height: 1px;
+}
+.nav .navlinks button span {
+    color: #fff;
+    font-size: 30px;
+
+}
+.navlinks > li > a {
+    color: white;
+    padding: 35px;
+    transition: all 0.3s ease 0s;
+
+}
+.navlinks > li > a:hover{
+    color: #FFAC12;
+}
