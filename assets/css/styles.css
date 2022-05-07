@@ -164,7 +164,6 @@ border: none;
 .allimages > .img >h4{
     padding: 20px 0 20px 40px;
     background-color: white;
-    margin-top: 1px;
     
 }
 .img >table{
@@ -188,6 +187,7 @@ border: none;
 .Footer{
     padding: 60px 120px 60px 120px;
     background-color: black;
+    display: grid;
 }
 .Footer > h2 >span{
     color: #FFAC12;
@@ -200,12 +200,22 @@ border: none;
     background-color: #FFAC12;
     border: none;
 }
-.lists{
-    display: flex;
-    justify-content: space-between;
-    padding: 40px 0 0 0;
-    line-height: 30px;
-    margin-left: 350px;
+.contactbox{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto ));
+}
+.list{
+    color: #fff;
+    margin-top: 50px;
+    line-height: 20px;
+
+}
+
+.iconfooter{
+    display: flex ;
+    color: #fff; 
+    margin-top: 80px; 
+    gap: 20px;
 }
 /* movers.html */
 
