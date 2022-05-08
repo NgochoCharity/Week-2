@@ -603,11 +603,30 @@ border: none;
 }
 @media only screen and (max-width: 540px){
     .herosection{
-      padding: 60px 50px 0 50px;
+      padding: 60px 20px 0 20px;
+      gap: 110px;
       
     }
 }
+@media only screen and (max-width: 540px){
+    .herocard{
+      padding: 1px 0 1px 1px;
+      width: 82%;
+    
+    }
+}
+@media only screen and (max-width: 517px){
+    .her0card td i{
+      font-size: 8px;
+    
+    }
+}
 
+@media only screen and (max-width: 517px){
+    .herocard{
+      width: 100%;
+    }
+}
 /* AboutUs */
 
 .AboutUs{
@@ -727,6 +746,101 @@ border: none;
 .about h4{
     padding: 15px 0 15px 30px;
 }
+
+/* responsiveness of about us section */
+
+@media only screen and (max-width: 1289px){
+    .AboutUs{
+      padding: 60px 0 20px 150px;
+    }
+}
+@media only screen and (max-width: 974px){
+    .AboutUs{
+     padding: 60px 0 20px 60px;
+    }
+}
+@media only screen and (max-width: 779px){
+    .Details{
+      width: 46%; 
+    }
+}
+@media only screen and (max-width: 779px){
+    .description{
+        width: 46%; 
+    }
+}
+@media only screen and (max-width: 779px){
+    .features{
+        width: 46%;
+    }
+}
+@media only screen and (max-width: 750px){
+    .features ul{
+       line-height: 15px; 
+    }
+}
+@media only screen and (max-width: 512px){
+    .features{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 540px){
+    .AboutUs{
+        padding: 60px 0 20px 20px ;
+    }
+}
+@media only screen and (max-width: 563px){
+    .Details{
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 563px){
+    .description{
+        width: 55% ;
+    }
+}
+@media only screen and (max-width: 563px){
+    .features{
+        width: 55%;
+    }
+}
+@media only screen and (max-width: 1140px){
+    #aboutimg4 {
+        height: 23vh;
+    }
+}
+@media only screen and (max-width: 1114px){
+    #aboutimg4 {
+        height: 30vh;
+    }
+}
+@media only screen and (max-width: 865px){
+    #aboutimg4 {
+        height: 26vh;
+    }
+}
+@media only screen and (max-width: 763px){
+    #aboutimg4 {
+        height: 34vh;
+    }
+}
+@media only screen and (max-width: 680px){
+    #aboutimg4 {
+        height: 28vh;
+    }
+}
+@media only screen and (max-width: 540px){
+    #aboutimg4 {
+        height: 26vh;
+    }
+}
+@media only screen and (max-width: 490px){
+    #aboutimg4 {
+        height: 45vh;
+    }
+}
+
+
 
 /* footer */
 
