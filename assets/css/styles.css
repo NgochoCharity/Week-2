@@ -15,6 +15,14 @@
     /* height: 100%; */
     opacity: 0.9; 
 }
+/* responsiveness of herosection */
+@media only screen and (max-width: 593px){
+    .HeroSection{
+      height: 100%;
+    
+    }
+}
+  
 .navbar {
     display: flex;
     padding-top: 60px;
@@ -86,6 +94,28 @@ h1{
 .links > .line > li> a:hover{
     color: #FFAC12;
 }
+/* responsiveness for navbar */
+@media only screen and (max-width: 943px){
+    .links > .line > li> a{
+      padding: 25px;
+    
+    }
+}
+@media only screen and (max-width: 861px){
+    .links > .line > li> a{
+      padding: 15px;
+    
+    }
+}
+@media only screen and (max-width: 777px){
+    .links > .line > li> a{
+      padding: 5px;
+    
+    }
+}
+
+
+
 /* SecondSection */
 
 .SecondSection{
@@ -148,7 +178,8 @@ h1{
 }
 .allimages{
 display: grid;
-grid-template-columns: repeat(3,2fr);
+/* grid-template-columns: repeat(3,2fr); */
+grid-template-columns: repeat(auto-fit, minmax(300px, auto));
 gap: 40px;
 
 border: none;
@@ -270,12 +301,13 @@ border: none;
 .herosection{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 60px 90px 0 90px ;
+    padding: 60px 90px 0 200px ;
     background-color: #ECECEC;
-    gap: 30px;
+    gap: 60px;
 }
+
  .bigimg {
-    width: 800px;
+    width: 100%;
 }
 .bigimg img {
     width: 100%;
@@ -296,6 +328,7 @@ border: none;
     background-color: white;
     border-radius: 20px 20px 20px 20px;
     box-shadow:3px 3px 0 0 lightgray ;
+    width: 70%;
 }
 .herocard td {
     padding: 20px 80px 20px 40px ;
@@ -325,11 +358,11 @@ border: none;
 /* AboutUs */
 
 .AboutUs{
-    padding: 60px 0 20px 90px ;
+    padding: 60px 0 20px 200px ;
     background-color: #ECECEC;
 }
 .Details{
-    width: 800px;
+    width: 43%;
     border-radius: 15px 15px 15px 15px ;
     background-color: #fff;
     border: none;
@@ -351,7 +384,7 @@ border: none;
 }
 .description{
     background-color: #fff;
-    margin-right: 380px;
+    width: 43%;
     border-radius: 15px 15px 15px 15px ;
     margin-top: 60px;
     padding: 20px 0 20px 0;
@@ -372,13 +405,14 @@ border: none;
     border-radius: 15px 15px 15px 15px ;
     margin-top: 60px;
     padding: 20px 0 20px 0;
-    margin-right: 380px;
+    width: 43%;
 }
 .features ul {
     display: flex;
     justify-content: space-around;
-    line-height: 30px;
+    line-height: 25px;
     padding-top: 20px;
+    font-size: 13px;
 }
 .features h4{
     padding: 20px 0 0 20px;
@@ -405,10 +439,12 @@ border: none;
 }
 .aboutusimg{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: repeat(auto-fit, minmax(220px, auto));
     gap: 30px;
     margin-top: 40px;
     padding-bottom: 100px;
+    width: 100%;
     
 }
 .aboutusimg img{
@@ -463,3 +499,5 @@ border: none;
     color: #fff;
     font-size: 30px;
 }
+
+/* Responsiveness */
