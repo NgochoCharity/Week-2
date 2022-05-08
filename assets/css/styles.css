@@ -322,4 +322,29 @@ border: none;
     font-size: 20px;
     
 }
+/* AboutUs */
 
+.AboutUs{
+    padding: 60px 90px 0 90px ;
+    background-color: #ECECEC;
+}
+.Details{
+    width: 800px;
+    border-radius: 15px 15px 15px 15px ;
+    background-color: #fff;
+    border: none;
+}
+.Details h4{
+    padding: 20px 0 20px 20px;
+}
+.details{
+    border: 1px solid #ECECEC;
+    border-collapse: collapse;
+    width: 800px;
+}
+.details  td {
+    padding: 10px 0 10px 0 ;
+    border: 1px solid #ECECEC;
+    border-collapse: collapse;
+    text-align: center;
+}
