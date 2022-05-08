@@ -77,6 +77,6 @@ GitHub - [Charity Wanjiku](https://github.com/NgochoCharity)
 
 ## Live Link
 
-LiveLink- [Gh-pages]()
+LiveLink -[Gh-pages](https://ngochocharity.github.io/Week-2/)
 
 
