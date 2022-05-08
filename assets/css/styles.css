@@ -22,7 +22,37 @@
     
     }
 }
-  
+@media only screen and (max-width: 699px){
+     ul .line{
+      padding-right: 5px;
+    
+    }
+}
+@media only screen and (max-width: 699px){
+    .navbar{
+     padding-right: 5px;
+   
+   }
+}
+@media only screen and (max-width: 547px){
+    .HeroText > #yellow{
+     font-size: 40px;
+   
+   }
+}
+@media only screen and (max-width: 490px){
+    .HeroText > p.small{
+     font-size: 25px;
+   
+   }
+}
+
+@media only screen and (max-width: 493px){
+    button.navbutton{
+     margin-left: 40px;
+   
+   }
+}
 .navbar {
     display: flex;
     padding-top: 60px;
@@ -115,7 +145,6 @@ h1{
 }
 
 
-
 /* SecondSection */
 
 .SecondSection{
@@ -160,6 +189,55 @@ h1{
 .text1 > button > span#yellow {
     font-size: 12px;
 } 
+/* responsiveness of the second section */
+
+@media only screen and (max-width: 718px){
+    .text1 button{
+      margin-top: 10px;
+    
+    }
+}
+@media only screen and (max-width: 777px){
+    .text1 button{
+      margin-top: 30px;
+    
+    }
+}
+@media only screen and (max-width: 604px){
+    .text1 button{
+      margin-top: 5px;
+      
+    }
+}
+@media only screen and (max-width: 515px){
+    .text1 button{
+      padding: 3px 10px 5px 10px;
+    
+    }
+}
+@media only screen and (max-width: 718px){
+    .text1 {
+      padding: 20px;
+    
+    }
+}
+@media only screen and (max-width: 604px){
+    .text1 {
+      padding: 10px;
+    
+    }
+}
+@media only screen and (max-width: 572px){
+    .text1 h1{
+      padding: 3px 0 3px 0;
+      font-size: 20px;
+    }
+}
+@media only screen and (max-width: 572px){
+    .text1 p{
+      font-size: 15px;
+    }
+}
 /* ThirdSection */
 
 .ThirdSection{
