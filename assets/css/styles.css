@@ -325,7 +325,7 @@ border: none;
 /* AboutUs */
 
 .AboutUs{
-    padding: 60px 90px 0 90px ;
+    padding: 60px 0 0 90px ;
     background-color: #ECECEC;
 }
 .Details{
@@ -341,10 +341,82 @@ border: none;
     border: 1px solid #ECECEC;
     border-collapse: collapse;
     width: 800px;
+    width: 100%;
 }
 .details  td {
     padding: 10px 0 10px 0 ;
     border: 1px solid #ECECEC;
     border-collapse: collapse;
     text-align: center;
+}
+.description{
+    background-color: #fff;
+    width: 800px;
+    border-radius: 15px 15px 15px 15px ;
+    margin-top: 60px;
+    padding: 20px 0 20px 0;
+}
+.description h4{
+    padding: 20px 0 20px 20px;
+}
+.description hr{
+    height: 1px ;
+    border: none;
+    background-color: #ECECEC;
+}
+.description p {
+    padding: 20px 10px 10px 20px;
+}
+.features{
+    background-color: #fff;
+    width: 800px;
+    border-radius: 15px 15px 15px 15px ;
+    margin-top: 60px;
+    padding: 20px 0 20px 0;
+}
+.features ul {
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+    padding-top: 20px;
+}
+.features h4{
+    padding: 20px 0 20px 20px;
+}
+.features hr{
+    height: 1px ;
+    border: none;
+    background-color: #ECECEC;
+}
+.features i {
+    color: #FFAC12;
+}
+.AboutUs hr {
+    height: 3px;
+    width: 100px;
+    background-image: linear-gradient(to right, #FAFF00 ,black);
+    border: none;
+    margin-top: 90px;
+}
+.AboutUs h2{
+    font-size: 30px;
+    padding: 10px 0 10px 0;
+}
+.aboutusimg{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 40px;
+    height: 500px;
+    
+}
+.aboutusimg img{
+    width: 100%;
+    height: 50%;
+    
+}
+.about{
+    background-color:white;
+    border-radius: 20px 20px 20px 20px;
+    
 }
