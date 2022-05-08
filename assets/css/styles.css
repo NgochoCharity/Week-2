@@ -264,3 +264,62 @@ border: none;
 .navlinks > li > a:hover{
     color: #FFAC12;
 }
+
+/* herosection */
+ 
+.herosection{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 60px 90px 0 90px ;
+    background-color: #ECECEC;
+    gap: 30px;
+}
+ .bigimg {
+    width: 800px;
+}
+.bigimg img {
+    width: 100%;
+}
+.smallimg{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+}
+.smallimg img {
+    width: 100%;
+}
+.herocard{
+    padding: 10px 10px 20px 30px;
+    border: none;
+    border-collapse: collapse;
+    margin: 0;
+    background-color: white;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow:3px 3px 0 0 lightgray ;
+}
+.herocard td {
+    padding: 20px 80px 20px 40px ;
+    border: 2px solid #ECECEC;
+    border-collapse: collapse;
+
+}
+.herocard td span{
+    color: #FFAC12;
+    padding-left: 28px;
+}
+.herocard td i{
+    font-size: 30px;
+    
+}
+.herocard td button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding:10px 0 10px 20px ;
+    border-radius: 0 15px 0 0;
+}
+.herocard td button span{
+    font-size: 20px;
+    
+}
+
