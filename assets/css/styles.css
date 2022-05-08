@@ -389,6 +389,7 @@ border: none;
 @media only screen and (max-width: 860px){
     .navlinks > button{
       padding: 1px 10px 5px 5px;
+      border-radius: 0 10px 0 0;
     }
 }
 @media only screen and (max-width: 826px){
@@ -478,6 +479,135 @@ border: none;
     font-size: 20px;
    
 }
+/* responsiveness of the hero section */
+@media only screen and (max-width: 1305px){
+    .herosection{
+      padding: 60px 70px 0 150px;
+    }
+}
+@media only screen and (max-width: 1231px){
+    .herocard{
+      width: 60%;
+    }
+}
+@media only screen and (max-width: 1240px){
+    .herocard tr td{
+      padding: 15px 0 15px 30px;
+    
+    }
+}
+@media only screen and (max-width: 1100px){
+    .herocard tr td{
+      padding: 10px 0 10px 20px;
+    
+    }
+}
+@media only screen and (max-width: 986px){
+    .herosection{
+      padding: 60px 0 40px 100px;
+    
+    }
+}
+@media only screen and (max-width: 849px){
+    .herosection{
+      padding: 60px 0 40px 30px;
+    
+    }
+}
+@media only screen and (max-width: 784px){
+    .herosection{
+      gap: 20px;
+    
+    }
+}
+@media only screen and (max-width: 986px){
+    .herocard td button{
+      padding: 3px 0 3px 8px;
+      border-radius: 0 10px 0 0;
+    
+    }
+}
+@media only screen and (max-width: 750px){
+    .herocard td i{
+      font-size: 20px;
+    }
+}
+@media only screen and (max-width: 986px){
+    .herosection{
+      padding: 60px 30px 3px 60px;
+    
+    }
+}
+@media only screen and (max-width: 760px){
+    .bigimg img{
+      width: 120%;
+    }
+}
+@media only screen and (max-width: 760px){
+    .smallimg img{
+      width: 120%;
+    
+    }
+}
+@media only screen and (max-width: 760px){
+    .herosection{
+      gap: 80px;
+    
+    }
+}
+@media only screen and (max-width: 720px){
+    .herocard{
+      width: 90%;
+    
+    }
+}
+@media only screen and (max-width: 694px){
+    .heroimages{
+      width: 120%;
+      padding-right: 20px;
+    
+    }
+}
+@media only screen and (max-width: 645px){
+    .heroimages{
+      width: 130%;
+      padding-right: 20px;
+    
+    }
+}
+@media only screen and (max-width: 602px){
+    .heroimages{
+      width: 140%;
+      padding-right: 50px;
+    
+    }
+}
+@media only screen and (max-width: 608px){
+    
+    .herocard tr td {
+        padding: 5px 0 5px 5px;
+    }
+}
+@media only screen and (max-width: 608px){
+    .heroimages{
+      padding-right: 60px;
+    
+    }
+}
+@media only screen and (max-width: 551px){
+    .heroimages{
+      width: 140%;
+      padding-right: 30px;
+    
+    }
+}
+@media only screen and (max-width: 540px){
+    .herosection{
+      padding: 60px 50px 0 50px;
+      
+    }
+}
+
 /* AboutUs */
 
 .AboutUs{
