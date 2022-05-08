@@ -867,4 +867,30 @@ border: none;
     font-size: 30px;
 }
 
-/* Responsiveness */
+/* Responsiveness of footer */
+
+@media only screen and (max-width: 1049px){
+    .Footer {
+        padding: 60px 80px 60px 80px;
+    }
+}
+@media only screen and (max-width: 974px){
+    .Footer {
+        padding: 60px 40px 60px 40px;
+    }
+}
+@media only screen and (max-width: 609px){
+    .footerbutton h2{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 609px){
+    .footerbutton button {
+        padding: 0 5px 5px 5px;
+    }
+}
+@media only screen and (max-width: 503px){
+    .footerbutton button span {
+        font-size: 18px;
+    }
+}
